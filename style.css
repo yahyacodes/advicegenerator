@@ -13,7 +13,7 @@ html {
 
 .container {
   height: 50%;
-  width: 100%;
+  width: 500px;
   background-color: hsl(193, 38%, 86%);
   background-color: hsl(217, 19%, 24%);
   border-radius: 10px;
@@ -36,9 +36,8 @@ html {
   padding: 20px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .container {
-    height: px;
     width: auto;
     background-color: hsl(193, 38%, 86%);
     background-color: hsl(217, 19%, 24%);
