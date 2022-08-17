@@ -6,15 +6,14 @@ html {
   background-color: hsl(217, 19%, 38%);
   background-color: hsl(217, 19%, 24%);
   background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  position: absolute;
-  top: 20rem;
-  left: 40rem;
-  margin: auto;
-  height: 250px;
-  width: 500px;
+  height: 50%;
+  width: 100%;
   background-color: hsl(193, 38%, 86%);
   background-color: hsl(217, 19%, 24%);
   border-radius: 10px;
@@ -32,9 +31,6 @@ html {
 }
 
 .dicebtn {
-  position: absolute;
-  top: 14.5rem;
-  right: 13.5rem;
   border-radius: 30px;
   background-color: hsl(150, 100%, 66%);
   padding: 20px;
@@ -42,12 +38,8 @@ html {
 
 @media screen and (max-width: 375px) {
   .container {
-    position: absolute;
-    top: 20rem;
-    left: 0rem;
-    margin: auto;
-    height: 350px;
-    width: 425px;
+    height: px;
+    width: auto;
     background-color: hsl(193, 38%, 86%);
     background-color: hsl(217, 19%, 24%);
     border-radius: 10px;
@@ -65,43 +57,6 @@ html {
   }
 
   .dicebtn {
-    position: absolute;
-    top: 20rem;
-    right: 11rem;
-    border-radius: 30px;
-    background-color: hsl(150, 100%, 66%);
-    padding: 20px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .container {
-    position: absolute;
-    top: 20rem;
-    left: 40rem;
-    margin: auto;
-    height: 250px;
-    width: 500px;
-    background-color: hsl(193, 38%, 86%);
-    background-color: hsl(217, 19%, 24%);
-    border-radius: 10px;
-    text-align: center;
-  }
-
-  .advice {
-    color: #3cb371;
-    font-size: 18px;
-  }
-
-  .quote {
-    color: aliceblue;
-    font-size: 28px;
-  }
-
-  .dicebtn {
-    position: absolute;
-    top: 14.5rem;
-    right: 13.5rem;
     border-radius: 30px;
     background-color: hsl(150, 100%, 66%);
     padding: 20px;
